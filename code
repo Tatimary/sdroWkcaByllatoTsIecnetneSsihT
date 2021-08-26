@@ -1,0 +1,9 @@
+<script>
+function reverseTheseWords(input){
+  newArray = input.split("");
+  let newString = newArray.reverse();
+  return newString.join("");
+}
+console.log(reverseTheseWords("This sentence is totally backwords"));
+
+</script>
